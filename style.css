@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+#menu{
+	background-color: #b0b0b0;
+	padding: 20px;
+	text-align: left;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 0 15px;
+}
+
+#menu ul li a:hover{
+	color: white;
+}
+
+footer td{
+	text-align: center;
+}
+
+#shoes_img{
+	width: 50%;
+	float: left;
+}
+
+#shoes_img img{
+	width: 300px;
+	height: 400px;
+	margin: 20px 100px;
+}
+
+#shoes_des{
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+	font-size: 20px;
+}
+
+#shoes h1{
+	text-align: center;
+	padding: 30px 0;
+}
+
+#btn{
+	background-color: #3fbed1;
+	border: 1px solid #3fbed1;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+#news img{
+	padding-top: 30px;
+	width: 90%;
+}
+
+#news h4{
+	text-align: center;
+}
+
+#news{
+	padding-bottom: 70px;
+	padding-top: 30px;
+}
+
+#about p{
+	font-size: 20px;
+	color: black;
+	padding: 20px 150px;
+}
+
+#about .class1{
+	color: red;
+}
+
+#about{
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+
+footer{
+	padding: 30px 30px;
+}
+
+#contact{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#contact h2{
+	padding-bottom: 20px;
+}
+
+#btn1{
+	background-color: #3fbed1;
+	border: 1px solid #3fbed1;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px 20px;
+}

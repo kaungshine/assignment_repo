@@ -1,0 +1,466 @@
+*{
+<<<<<<< HEAD
+	padding: 0;
+	margin: 0;
+=======
+	margin: 0;
+	padding: 0;
+	font-family: karla;
+}
+
+@font-face{
+	font-family: "pacifico";
+	src:url("fonts/Pacifico-Regular.ttf");
+}
+
+@font-face{
+	font-family: "karla";
+	src:url("fonts/Karla-Regular.ttf");
+>>>>>>> Added cocktail assign
+}
+
+.clear{
+	clear: both;
+}
+
+<<<<<<< HEAD
+#menu{
+	background-color: #b0b0b0;
+	padding: 20px;
+	text-align: left;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 0 15px;
+}
+
+#menu ul li a:hover{
+	color: white;
+}
+
+footer td{
+	text-align: center;
+}
+
+#shoes_img{
+	width: 50%;
+	float: left;
+}
+
+#shoes_img img{
+	width: 300px;
+	height: 400px;
+	margin: 20px 100px;
+}
+
+#shoes_des{
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+	font-size: 20px;
+}
+
+#shoes h1{
+	text-align: center;
+	padding: 30px 0;
+}
+
+#btn{
+	background-color: #3fbed1;
+	border: 1px solid #3fbed1;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+#news img{
+	padding-top: 30px;
+	width: 90%;
+}
+
+#news h4{
+	text-align: center;
+}
+
+#news{
+	padding-bottom: 70px;
+	padding-top: 30px;
+}
+
+#about p{
+	font-size: 20px;
+	color: black;
+	padding: 20px 150px;
+}
+
+#about .class1{
+	color: red;
+}
+
+#about{
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+
+footer{
+	padding: 30px 30px;
+}
+
+#contact{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#contact h2{
+	padding-bottom: 20px;
+}
+
+#btn1{
+	background-color: #3fbed1;
+	border: 1px solid #3fbed1;
+	font-size: 20px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px 20px;
+}
+=======
+#menu {
+	background-color: #709c09;
+	box-shadow: 0 0 50px #3b4d12;
+}
+
+#logo{
+	display: inline-block;
+}
+
+#logo img{
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+.logo_title{
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 16px;
+	font-family: pacifico;
+	/*animation: animate1 3s 1s infinite alternate;*/
+}
+
+/*@keyframes neon4 {
+			0% {color: red;}
+			25% {color: blue;}
+			50% {color: black;}
+			75% {color: brown;}
+			100% {color: yellow;}
+		}*/
+
+#menu ul{
+	float: right;
+	padding: 25px 50px;
+	padding-top: 30px;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0 10px;
+	transition: transform .3s ease-out;
+	display: inline-block;
+}
+
+#menu ul li a:hover{
+	transform: translate(0, -4px);
+	animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+#banner {
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+#banner img{
+	width: 100%;
+	margin-top: 30px;
+	box-shadow: 0 0 50px #3b4d12;
+}
+
+.title{
+	max-width: 50%;
+	margin-left: 25%;
+	margin-top: 30px;
+}
+
+.title .title_text{
+	text-align: center;
+}
+
+.title .outline{
+	max-width: 50%;
+	margin: 0 25%;
+	height: 1px;
+	background-color: #3b4d12;
+}
+
+.card_box {
+	max-width: 50%;
+	margin-top: 50px;
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+
+.card_box .box{
+	max-width: 30%;
+	margin-left: 15px;
+	box-shadow: 0 0 10px #000;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.box img{
+	width: 100%;
+}
+
+.box h4 {
+	text-align: center;
+}
+
+.rating{
+	text-align: center;
+	color: #709c09;
+}
+
+.buy_btn{
+	width: 100%;
+	padding: 5px;
+	background-color: #405905;
+	color: white;
+}
+
+#shop_img{
+	width: 50%;
+	float: left;
+
+}
+
+#shop_img img{
+	width: 300px;
+	height: 240px;
+	margin: 20px 100px;
+	margin-top: 40px;
+	box-shadow: 0 0 10px #000;
+}
+
+#shop_des{
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	line-height: 1.8em;
+}
+
+#shop_des p{
+	text-align: justify;
+}
+
+footer {
+	width: 100%;
+	background-color: #709c09;
+	height: 120px;
+}
+footer>p.first-foot {
+	padding: 20px;
+	color: #000;
+	text-align: center;
+	font-size: 18px;
+}
+footer>p>a {
+	color: #fff;
+	font-size: 19px;
+}
+p.sec-foot {
+	margin-left: 40%;
+	color: #000;
+}
+p.sec-foot>i {
+	padding: 10px;
+}
+
+.box img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#footsec {
+	float: left;
+}
+#footsec table {
+	margin-top: 30px;
+}
+#footsec input[type=text] {
+	height: 30px;
+}
+#footsec label {
+	margin-left: 20px;
+}
+#footsec textarea {
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #000;
+}
+#footsec button {
+	float: right;
+	cursor: pointer;
+	background-color: #709c09;
+	font-size: 16px;
+	border: none;
+	color: #000;
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+}
+
+#contacts_des{
+	width: 50%;
+	float: left;
+	padding-top: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#contacts h1{
+	text-align: left;
+	padding: 20px 0;
+}
+
+.logo_title{
+  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+  animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon4 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+  }
+  	0% {color: red;}
+	25% {color: blue;}
+	50% {color: black;}
+	75% {color: brown;}
+	100% {color: yellow;}
+}
+
+@-webkit-keyframes neon5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
+
+#about{
+	width: 50%;
+	float: left;
+	padding-top: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
+	text-align: justify;
+	text-align: center;
+}
+
+#about h1{
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+
+#about_img img{
+	width: 45%;
+	margin: 50px 0;
+	padding-left: 20px;
+}
+
+#about button {
+	cursor: pointer;
+	background-color: #709c09;
+	font-size: 16px;
+	border: none;
+	color: #000;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+}
+
+/*#about_img img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}*/
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+>>>>>>> Added cocktail assign
